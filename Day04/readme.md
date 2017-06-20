@@ -20,7 +20,7 @@ New
 5. Know what and `f-string` is and how to use it
 4. Be able to describe how and when to use `range`, `enumerate`, and `zip`
 6. Be able to use at least one special container form the `collections` class
-7. Know how and when to use `assert`, `true`, and `except`
+7. Know how and when to use `assert`, `try`, and `except`
 
 !
 
@@ -41,7 +41,7 @@ New
 
 ```python
 s1 = 'num: {}'.format(value)
-s2 = 'num: {.4f}'.format(value)
+s2 = 'num: {:.4f}'.format(value)
 ```
 
 !
@@ -100,7 +100,7 @@ with open(filename, 'r') as f:
 
 We already know about `range`
 
-`enumerate` gets the value and index
+`enumerate` gets the index and value
 
 `zip` "walks" through two lists at the same time
 
